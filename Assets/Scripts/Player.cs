@@ -21,17 +21,21 @@ public class Player : Photon.MonoBehaviour
 
     private void Awake()
     {
-        if (pV.isMine)
-        {
-            playerCam.SetActive(true);
-        }
+        
         
     }
 
     void Start()
     {
         if (pV.isMine) {
+
+            playerCam.SetActive(true);
+
             cam = GameObject.FindWithTag("MainCamera").gameObject.transform;
+        }
+        else
+        {
+            playerCam.SetActive(false);
         }
         
     }
