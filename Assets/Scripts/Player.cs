@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Cinemachine;
+using TMPro;
 
 public class Player : Photon.MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class Player : Photon.MonoBehaviour
     public Transform cam;
     private GameManager gm;
     [SerializeField] private CinemachineFreeLook playerCamera;
+    private MenuController MC;
+    [SerializeField] private TextMeshProUGUI UserName;
 
     private void Awake()
     {
@@ -32,6 +35,8 @@ public class Player : Photon.MonoBehaviour
             playerCam.SetActive(true);
 
             cam = GameObject.FindWithTag("MainCamera").gameObject.transform;
+            
+            
         }
         else
         {
@@ -39,6 +44,14 @@ public class Player : Photon.MonoBehaviour
             this.enabled=false;
         }
         
+        AddUserName();
+        
+        
+    }
+
+    private void AddUserName()
+    {
+        UserName.text = photonView.owner.NickName;
     }
     
     void Update()
@@ -64,5 +77,5 @@ public class Player : Photon.MonoBehaviour
             playerCamera.LookAt = gm.player.transform;
         }
     }
-        
+    
 }

@@ -274,7 +274,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1036,6 +1036,7 @@ MonoBehaviour:
   createInput: {fileID: 389637129}
   joinInput: {fileID: 2081625540}
   StartBut: {fileID: 1319295064}
+  username_overhead: {fileID: 1445258148}
 --- !u!4 &1031292695
 Transform:
   m_ObjectHideFlags: 0

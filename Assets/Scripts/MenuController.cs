@@ -15,6 +15,8 @@ public class MenuController : MonoBehaviour
     [SerializeField] private InputField joinInput;
     
     [SerializeField] private GameObject StartBut;
+
+    //public Text username_overhead;
     
     
 
@@ -50,6 +52,7 @@ public class MenuController : MonoBehaviour
     {
         Username.SetActive(false);
         PhotonNetwork.playerName = userInput.text;
+        //username_overhead.text = userInput.text;
     }
 
     public void CreateGame()
