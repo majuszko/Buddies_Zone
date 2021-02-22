@@ -3794,7 +3794,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Pref: {fileID: 3363727713704369505}
   Canv: {fileID: 596448829}
-  Cam: {fileID: 581491664}
+  player: {fileID: 3363727713704369505}
+  playerCamera: {fileID: 4826196173323980082}
 --- !u!1 &3363727713704369505 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7805946868746096720, guid: ea282104576b148908505d1c7f2ef50b,
@@ -3923,5 +3924,22 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 581491668}
+    - target: {fileID: 7805946868746096725, guid: ea282104576b148908505d1c7f2ef50b,
+        type: 3}
+      propertyPath: playerCamera
+      value: 
+      objectReference: {fileID: 4826196173323980082}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea282104576b148908505d1c7f2ef50b, type: 3}
+--- !u!114 &4826196173323980082 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4826196171926710222, guid: ea282104576b148908505d1c7f2ef50b,
+    type: 3}
+  m_PrefabInstance: {fileID: 4826196173323980081}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 319d2fe34a804e245819465c9505ea59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
