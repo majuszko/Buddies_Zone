@@ -36,6 +36,7 @@ public class Player : Photon.MonoBehaviour
         else
         {
             playerCam.SetActive(false);
+            this.enabled=false;
         }
         
     }
