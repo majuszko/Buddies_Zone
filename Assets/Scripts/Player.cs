@@ -8,10 +8,9 @@ using TMPro;
 
 public class Player : Photon.MonoBehaviour
 {
-    //public Rigidbody rb;
+    
     public GameObject playerCam;
     public PhotonView pV;
-    //public Text PlayerName;
     public CharacterController control;
     public float speed = 6f;
     public float smooth = 0.1f;
@@ -21,6 +20,7 @@ public class Player : Photon.MonoBehaviour
     [SerializeField] private CinemachineFreeLook playerCamera;
     private MenuController MC;
     [SerializeField] private TextMeshProUGUI UserName;
+    
 
     private void Awake()
     {
@@ -35,6 +35,7 @@ public class Player : Photon.MonoBehaviour
             playerCam.SetActive(true);
 
             cam = GameObject.FindWithTag("MainCamera").gameObject.transform;
+            
             
             
         }
@@ -75,6 +76,8 @@ public class Player : Photon.MonoBehaviour
             
             playerCamera.Follow = gm.player.transform;
             playerCamera.LookAt = gm.player.transform;
+            
+            
         }
     }
     

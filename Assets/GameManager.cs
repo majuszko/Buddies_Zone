@@ -5,6 +5,8 @@ using Cinemachine;
 
 public class GameManager : MonoBehaviour
 {
+    
+    [SerializeField] private string Version = "0.1";
     public GameObject Pref;
     public GameObject Canv;
     public GameObject player;
@@ -24,5 +26,11 @@ public class GameManager : MonoBehaviour
         Canv.SetActive(false);
         
         //Cam.SetActive(false);
+    }
+
+    public void BackToMenu()
+    {
+        PhotonNetwork.LoadLevel("Menu");
+        PhotonNetwork.LeaveRoom();
     }
 }
