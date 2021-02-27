@@ -20,13 +20,9 @@ public class Player : Photon.MonoBehaviour
     [SerializeField] private CinemachineFreeLook playerCamera;
     private MenuController MC;
     [SerializeField] private TextMeshProUGUI UserName;
+    //public Button buttons;
+    private ColorChange cc;
     
-
-    private void Awake()
-    {
-        
-        
-    }
 
     void Start()
     {
@@ -35,9 +31,9 @@ public class Player : Photon.MonoBehaviour
             playerCam.SetActive(true);
 
             cam = GameObject.FindWithTag("MainCamera").gameObject.transform;
-            
-            
-            
+
+            //cc.ChangeMaterial();
+
         }
         else
         {
@@ -74,11 +70,23 @@ public class Player : Photon.MonoBehaviour
                 control.Move(moveDir.normalized * speed * Time.deltaTime);
             }
             
+            //ChangeMaterial();
+        
+            
             playerCamera.Follow = gm.player.transform;
             playerCamera.LookAt = gm.player.transform;
             
             
         }
     }
-    
+    /*public void ChangeMaterial(Color colors)
+    {
+        if (pV.isMine)
+        {
+            foreach (Renderer r in GetComponentsInChildren<Renderer>())
+            {
+                r.material.color = colors;
+            }
+        }
+    }*/
 }

@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string Version = "0.1";
     public GameObject Pref;
     public GameObject Canv;
+    public GameObject Button;
     public GameObject player;
     [SerializeField] private CinemachineFreeLook playerCamera = null;
 
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour
         
         
         Canv.SetActive(false);
-        
+        Button.SetActive(true);
         //Cam.SetActive(false);
     }
 
