@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12afd567-bc07-409a-9956-e503010d8f79" name="Default Changelist" comment="Added option to leave room and go back to menu">
-      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/test.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/test.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon Unity Networking/Resources/AssembledPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Resources/AssembledPlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon Unity Networking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Resources/PhotonServerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-    </list>
+    <list default="true" id="12afd567-bc07-409a-9956-e503010d8f79" name="Default Changelist" comment="Added options" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UsernameDirection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Options.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/Maja/Desktop/Unity/Multiplayer_project/Assets/Photon Unity Networking/Resources/AssembledPlayer.prefab" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -87,7 +80,7 @@
       <workItem from="1614013730714" duration="1388000" />
       <workItem from="1614064850138" duration="10589000" />
       <workItem from="1614097846594" duration="1798000" />
-      <workItem from="1614423970703" duration="1720000" />
+      <workItem from="1614423970703" duration="2111000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed view">
       <created>1613996738591</created>
@@ -131,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614069357121</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added options">
+      <created>1614427562719</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614427562719</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added options">
+      <created>1614427704045</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614427704045</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +165,7 @@
     <MESSAGE value="Fixed sync to see other players" />
     <MESSAGE value="Added nametags" />
     <MESSAGE value="Added option to leave room and go back to menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added option to leave room and go back to menu" />
+    <MESSAGE value="Added options" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added options" />
   </component>
 </project>
